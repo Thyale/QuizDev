@@ -9,8 +9,10 @@ ReactDOM.createRoot(document.getElementById('Header')).render(
   </React.StrictMode>,
 )
 
+import Corpo from './Corpo/Corpo'
 ReactDOM.createRoot(document.getElementById('Main')).render(
   <React.StrictMode>
+    <Corpo/>
   </React.StrictMode>,
 )
 

@@ -1,6 +1,6 @@
 function HeaderText(){
     return(
-        <div>
+        <div className="HeaderText">
             <p>Esse quiz foi desenvolvido, usando REACT, por Thyale MD</p>
         </div>
     )

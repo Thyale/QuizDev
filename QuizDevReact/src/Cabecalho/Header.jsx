@@ -3,7 +3,7 @@ import HeaderText from "./HeaderText"
 
 function Header(){
     return(
-        <div>
+        <div className="HeaderContainer">
             <HeaderIcon/>
             <HeaderText/>
         </div>
