@@ -190,6 +190,180 @@ body{
     background-color: #0D3E1A;
 }
 
+/*Main - JAVASCRIPT*/
+
+.StartJS{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    display: none;
+}
+
+.StartJS h1{
+    font-size: 30px;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+}
+
+.StartJS strong{
+    color:#197632 ;
+    text-decoration: underline;
+}
+
+.StartJS p{
+    font-size: 30px;
+    margin: 10px 0px;
+    padding: 10px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+}
+
+.StartJS input{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.StartJS input:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
+/*Main - PYHTON*/
+
+.SelectPY{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    display: none;
+}
+
+.SelectPY h1{
+    font-size: 30px;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+}
+
+.SelectPY strong{
+    color:#197632 ;
+    text-decoration: underline;
+}
+
+.SelectPY p{
+    font-size: 30px;
+    margin: 10px 0px;
+    padding: 10px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+}
+
+.SelectPY input{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.SelectPY input:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
+/*Main - PHP*/
+
+.SelectPHP{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    display: none;
+}
+
+.SelectPHP h1{
+    font-size: 30px;
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+}
+
+.SelectPHP strong{
+    color:#197632 ;
+    text-decoration: underline;
+}
+
+.SelectPHP p{
+    font-size: 30px;
+    margin: 10px 0px;
+    padding: 10px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 80%;
+    margin: auto;
+}
+
+.SelectPHP input{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.SelectPHP input:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
 
 
 /*Estilos para dispositivos móveis*/
@@ -205,5 +379,35 @@ body{
 
     .CorpoLinguagem h1{
         font-size: 25px;
+    }
+
+    /*Main - JAVASCRIPT*/
+
+   .StartJS h1{
+       font-size: 25px;
+    }
+
+    .StartJS p{
+        font-size: 25px;
+    }
+
+    /*Main - PYHTON*/
+
+   .SelectPY h1{
+       font-size: 25px;
+   }
+
+   .SelectPY p{
+       font-size: 25px;
+    }
+
+    /*Main - PHP*/
+
+   .SelectPHP h1{
+       font-size: 25px;
+    }
+
+   .SelectPHP p{
+       font-size: 25px;
     }
 }
