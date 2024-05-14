@@ -1,6 +1,12 @@
+import CorpoStart from "./CorpoStart"
+import CorpoLinguagem from "./CorpoLinguagem"
+
 function Corpo(){
     return(
-        <div></div>
+        <div className="CorpoContainer">
+            <CorpoStart/>
+            <CorpoLinguagem/>
+        </div>
     )
 }
 
