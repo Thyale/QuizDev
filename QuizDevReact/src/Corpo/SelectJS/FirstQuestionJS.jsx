@@ -10,15 +10,20 @@ function FirstQuestionJS(){
         SecondQuestionJS.style.display = "block"
     }
 
+    const [resposta01, setResposta01] = useState ("")
+
     function ShowRQ1(){
+        var BtnEnvio = window.document.querySelector("input.BtnEnvio")
         var BtnNext = window.document.querySelector("input.BtnNext")
         var selectedAnswer = document.querySelector('input[name="question"]:checked');
         if (selectedAnswer && selectedAnswer.id === 'D') {
-            alert ("vc acertou!")
+            setResposta01("Isso mesmo!! Você acertou a resposta!!")
             BtnNext.style.display = "block"
+            BtnEnvio.style.display = "none"
         }else{
-            alert ("vc errou!")
+            setResposta01("Opss! Você errou! A resposta certa era a letra D")
             BtnNext.style.display = "block"
+            BtnEnvio.style.display = "none"
         }
     }
 
@@ -43,8 +48,8 @@ function FirstQuestionJS(){
                 <input type="radio" name="question" id="D" />
             </div>
             <input onClick={ShowRQ1} className="BtnEnvio" type="button" value="ENVIAR" />
-            <p className="RespotaQ1"></p>
-            <input onClick={NEXTQUESTION} className="BtnNext" type="button" value="NEXT QUESTION" />
+            <p className="RespotaQ1">{resposta01}</p>
+            <input onClick={NEXTQUESTION} className="BtnNext" type="button" value="PRÓXIMA QUESTÃO" />
         </div>
     )
 }

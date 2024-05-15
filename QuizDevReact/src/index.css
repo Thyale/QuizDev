@@ -406,7 +406,7 @@ input[type="radio"]:checked {
     background-color: #15642A;
 }
 
-.BtnEnvio{
+.BtnEnvio , .BtnEnvio2,.BtnEnvio3, .BtnEnvio4, .BtnEnvio5{
     background-color: #0D3E1A;
     color: #00BB3A;
     border-radius: 20px;
@@ -414,7 +414,7 @@ input[type="radio"]:checked {
     outline: none;
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 20%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -422,12 +422,12 @@ input[type="radio"]:checked {
     cursor: pointer;
 }
 
-.BtnEnvio:hover{
+.BtnEnvio:hover , .BtnEnvio2:hover, .BtnEnvio3:hover, .BtnEnvio4:hover, .BtnEnvio5:hover{
     background-color: #15642A;
     color: #02d93b;
 }
 
-.BtnNext{
+.BtnNext , .BtnNext2, .BtnNext3, .BtnNext4, .BtnNext5{
     background-color: #0D3E1A;
     color: #00BB3A;
     border-radius: 20px;
@@ -435,16 +435,16 @@ input[type="radio"]:checked {
     outline: none;
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 90%;
     margin: auto;
     margin-bottom: 20px;
     margin-top: 10px;
-    padding: 2px;
+    padding: 10px;
     cursor: pointer;
     display: none;
 }
 
-.BtnNext:hover{
+.BtnNext:hover , .BtnNext2:hover, .BtnNext3:hover, .BtnNext4:hover, .BtnNext5:hover{
     background-color: #15642A;
     color: #02d93b;
 }
@@ -472,6 +472,90 @@ input[type="radio"]:checked {
     text-align: center;
     font-size: 17px;
     font-family: "IBM Plex Serif", serif;
+}
+
+.ThirdQuestionJS{
+    color: white;
+    display: none;
+}
+
+.ThirdQuestionJS p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.ThirdQuestionJS div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.FourthQuestionJS{
+    color: white;
+    display: none;
+}
+
+.FourthQuestionJS p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.FourthQuestionJS div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.ThursdayQuestionJS{
+    color: white;
+    display: none;
+}
+
+.ThursdayQuestionJS p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.ThursdayQuestionJS div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.EndJS{
+    color: white;
+    display: none;
+}
+
+.EndJS p, h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
 }
 
 
