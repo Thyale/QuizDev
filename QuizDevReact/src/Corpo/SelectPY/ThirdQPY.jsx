@@ -23,6 +23,12 @@ function ThirdQPY(){
         ThirdQPY.style.display = "none"
         let FourthQPY = window.document.querySelector("div.FourthQPY")
         FourthQPY.style.display = "block"
+
+        let BtnEnvioPY3 = window.document.querySelector("input.BtnEnvioPY3")
+        BtnEnvioPY3.style.display = "block"
+        let BtnNextPY3 = window.document.querySelector("input.BtnNextPY3")
+        BtnNextPY3.style.display = "none"
+        setRespostaPY3("")
     }
 
     return(

@@ -23,6 +23,12 @@ function FourthQPY(){
         FourthQPY.style.display = "none"
         let ThursdayQPY = window.document.querySelector("div.ThursdayQPY")
         ThursdayQPY.style.display = "block"
+
+        let BtnEnvioPY4 = window.document.querySelector("input.BtnEnvioPY4")
+        BtnEnvioPY4.style.display = "block"
+        let BtnNextPY4 = window.document.querySelector("input.BtnNextPY4")
+        BtnNextPY4.style.display = "none"
+        setRespostaPY4("")
     }
 
     return(

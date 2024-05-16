@@ -19,6 +19,12 @@ import EndPY from "./SelectPY/EndPY"
 
 
 import SelectPHP from "./SelectPHP/SelectPHP"
+import FirstQPHP from "./SelectPHP/FirstQPHP"
+import SecondQPHP from "./SelectPHP/SecondQPHP"
+import ThirdQPHP from "./SelectPHP/ThirdQPHP"
+import FourthQPHP from "./SelectPHP/FourthQPHP"
+import ThursdayQPHP from "./SelectPHP/ThursdayQPHP"
+import EndPHP from "./SelectPHP/EndPHP"
 
 function Corpo(){
     return(
@@ -43,6 +49,12 @@ function Corpo(){
             <EndPY/>
 
             <SelectPHP/>
+            <FirstQPHP/>
+            <SecondQPHP/>
+            <ThirdQPHP/>
+            <FourthQPHP/>
+            <ThursdayQPHP/>
+            <EndPHP/>
         </div>
     )
 }

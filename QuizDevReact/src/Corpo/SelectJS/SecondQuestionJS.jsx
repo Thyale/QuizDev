@@ -24,6 +24,12 @@ function SecondQuestionJS(){
         SecondQuestionJS.style.display = "none"
         let ThirdQuestionJS = window.document.querySelector("div.ThirdQuestionJS")
         ThirdQuestionJS.style.display = "block"
+
+        let BtnEnvio2 = window.document.querySelector("input.BtnEnvio2")
+        BtnEnvio2.style.display = "block"
+        let BtnNext2 = window.document.querySelector("input.BtnNext2")
+        BtnNext2.style.display = "none"
+        setResposta02("")
     }
 
     return(

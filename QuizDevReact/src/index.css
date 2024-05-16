@@ -449,20 +449,6 @@ input[type="radio"]:checked {
     color: #02d93b;
 }
 
-
-.EndJS{
-    color: white;
-    display: none;
-}
-
-.EndJS p, h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-    margin: 25px;
-}
-
-
 /*Main - PYHTON  - Perguntas*/
 
 .FirstQPY, .SecondQPY, .ThirdQPY, .FourthQPY, .ThursdayQPY{
@@ -532,7 +518,78 @@ input[type="radio"]:checked {
     color: #02d93b;
 }
 
-.EndPY{
+/*Main - PHP  - Perguntas*/
+
+.FirstQPHP, .SecondQPHP, .ThirdQPHP, .FourthQPHP, .ThursdayQPHP{
+    color: white;
+    display: none;
+}
+
+.FirstQPHP p, .SecondQPHP p, .ThirdQPHP p, .FourthQPHP p, .ThursdayQPHP p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.FirstQPHP div, .SecondQPHP div, .ThirdQPHP div, .FourthQPHP div, .ThursdayQPHP div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.BtnEnvioPHP1, .BtnEnvioPHP2, .BtnEnvioPHP3, .BtnEnvioPHP4, .BtnEnvioPHP5{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.BtnEnvioPHP1:hover, .BtnEnvioPHP2:hover, .BtnEnvioPHP3:hover, .BtnEnvioPHP4:hover, .BtnEnvioPHP5:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
+.BtnNextPHP1, .BtnNextPHP2, .BtnNextPHP3, .BtnNextPHP4, .BtnNextPHP5{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.BtnNextPHP1:hover, .BtnNextPHP2:hover, .BtnNextPHP3:hover, .BtnNextPHP4:hover, .BtnNextPHP5:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
+/*End dos aquivos main*/
+
+.EndPY , .EndJS, .EndPHP{
     color: white;
     display: none;
 }
@@ -544,6 +601,44 @@ input[type="radio"]:checked {
     margin: 25px;
 }
 
+.EndJS p, h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
+}
+
+.EndPHP p, h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
+}
+
+.EndPY input, .EndJS input, .EndPHP input{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.EndJS input:hover , .EndPY input:hover, .EndPHP input:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
+label{
+    text-align: start;
+}
 
 /*Estilos para dispositivos móveis*/
 @media (max-width: 568px) {

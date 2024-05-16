@@ -24,6 +24,12 @@ function FourthQuestionJS(){
         FourthQuestionJS.style.display = "none"
         let ThursdayQuestionJS= window.document.querySelector("div.ThursdayQuestionJS")
         ThursdayQuestionJS.style.display = "block"
+
+        let BtnEnvio4 = window.document.querySelector("input.BtnEnvio4")
+        BtnEnvio4.style.display = "block"
+        let BtnNext4 = window.document.querySelector("input.BtnNext4")
+        BtnNext4.style.display = "none"
+        setResposta04("")
     }
 
     return(

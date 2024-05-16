@@ -8,6 +8,12 @@ function FirstQuestionJS(){
         FirstQuestionJS.style.display = "none"
         let SecondQuestionJS = window.document.querySelector("div.SecondQuestionJS")
         SecondQuestionJS.style.display = "block"
+
+        let BtnEnvio = window.document.querySelector("input.BtnEnvio")
+        BtnEnvio.style.display = "block"
+        let BtnNext = window.document.querySelector("input.BtnNext")
+        BtnNext.style.display = "none"
+        setResposta01("")
     }
 
     const [resposta01, setResposta01] = useState ("")

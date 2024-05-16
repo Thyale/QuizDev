@@ -24,6 +24,12 @@ function FirstQPY(){
         FirstQPY.style.display = "none"
         let SecondQPY = window.document.querySelector("div.SecondQPY")
         SecondQPY.style.display = "block"
+
+        let BtnEnvioPY1 = window.document.querySelector("input.BtnEnvioPY1")
+        BtnEnvioPY1.style.display = "block"
+        let BtnNextPY1 = window.document.querySelector("input.BtnNextPY1")
+        BtnNextPY1.style.display = "none"
+        setRespostaPY1("")
     }
 
     return(

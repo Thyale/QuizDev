@@ -24,6 +24,12 @@ function ThursdayQuestionJS(){
         ThursdayQuestionJS.style.display = "none"
         let EndJS= window.document.querySelector("div.EndJS")
         EndJS.style.display = "block"
+
+        let BtnEnvio5 = window.document.querySelector("input.BtnEnvio5")
+        BtnEnvio5.style.display = "block"
+        let BtnNext5 = window.document.querySelector("input.BtnNext5")
+        BtnNext5.style.display = "none"
+        setResposta05("")
     }
 
     return(
