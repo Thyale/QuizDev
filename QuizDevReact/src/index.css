@@ -366,19 +366,19 @@ body{
 
 /*Main - JAVASCRIPT - Perguntas*/
 
-.FirstQuestionJS{
+.FirstQuestionJS, .SecondQuestionJS, .ThirdQuestionJS, .FourthQuestionJS, .ThursdayQuestionJS{
     color: white;
     display: none;
 }
 
-.FirstQuestionJS p{
+.FirstQuestionJS p, .SecondQuestionJS p, .ThirdQuestionJS p, .FourthQuestionJS p, .ThursdayQuestionJS p{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
     margin: 20px 10px;
 }
 
-.FirstQuestionJS div{
+.FirstQuestionJS div, .SecondQuestionJS div, .ThirdQuestionJS div, .FourthQuestionJS div, .ThursdayQuestionJS div{
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
@@ -450,108 +450,94 @@ input[type="radio"]:checked {
 }
 
 
-.SecondQuestionJS{
-    color: white;
-    display: none;
-}
-
-.SecondQuestionJS p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-    margin: 20px 10px;
-}
-
-.SecondQuestionJS div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    text-align: center;
-    font-size: 17px;
-    font-family: "IBM Plex Serif", serif;
-}
-
-.ThirdQuestionJS{
-    color: white;
-    display: none;
-}
-
-.ThirdQuestionJS p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-    margin: 20px 10px;
-}
-
-.ThirdQuestionJS div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    text-align: center;
-    font-size: 17px;
-    font-family: "IBM Plex Serif", serif;
-}
-
-.FourthQuestionJS{
-    color: white;
-    display: none;
-}
-
-.FourthQuestionJS p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-    margin: 20px 10px;
-}
-
-.FourthQuestionJS div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    text-align: center;
-    font-size: 17px;
-    font-family: "IBM Plex Serif", serif;
-}
-
-.ThursdayQuestionJS{
-    color: white;
-    display: none;
-}
-
-.ThursdayQuestionJS p{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    text-align: center;
-    margin: 20px 10px;
-}
-
-.ThursdayQuestionJS div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: start;
-    align-items: center;
-    padding: 10px;
-    gap: 10px;
-    text-align: center;
-    font-size: 17px;
-    font-family: "IBM Plex Serif", serif;
-}
-
 .EndJS{
     color: white;
     display: none;
 }
 
 .EndJS p, h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
+}
+
+
+/*Main - PYHTON  - Perguntas*/
+
+.FirstQPY, .SecondQPY, .ThirdQPY, .FourthQPY, .ThursdayQPY{
+    color: white;
+    display: none;
+}
+
+.FirstQPY p, .SecondQPY p, .ThirdQPY p, .FourthQPY p, .ThursdayQPY p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.FirstQPY div, .SecondQPY div, .ThirdQPY div, .FourthQPY div, .ThursdayQPY div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "IBM Plex Serif", serif;
+}
+
+.BtnEnvioPY1, .BtnEnvioPY2, .BtnEnvioPY3, .BtnEnvioPY4, .BtnEnvioPY5{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.BtnEnvioPY1:hover, .BtnEnvioPY2:hover, .BtnEnvioPY3:hover, .BtnEnvioPY4:hover, .BtnEnvioPY5:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
+.BtnNextPY1, .BtnNextPY2, .BtnNextPY3, .BtnNextPY4, .BtnNextPY5{
+    background-color: #0D3E1A;
+    color: #00BB3A;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.BtnNextPY1:hover, .BtnNextPY2:hover, .BtnNextPY3:hover, .BtnNextPY4:hover, .BtnNextPY5:hover{
+    background-color: #15642A;
+    color: #02d93b;
+}
+
+.EndPY{
+    color: white;
+    display: none;
+}
+
+.EndPY p, h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;

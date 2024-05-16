@@ -10,6 +10,14 @@ import ThursdayQuestionJS from "./SelectJS/ThursdayQuestionJS"
 import EndJS from "./SelectJS/EndJS"
 
 import SelectPY from "./SelectPY/SelectPY"
+import FirstQPY from "./SelectPY/FirstQPY"
+import SecondQPY from "./SelectPY/SecondQPY"
+import ThirdQPY from "./SelectPY/ThirdQPY"
+import FourthQPY from "./SelectPY/FourthQPY"
+import ThursdayQPY from "./SelectPY/ThursdayQPY"
+import EndPY from "./SelectPY/EndPY"
+
+
 import SelectPHP from "./SelectPHP/SelectPHP"
 
 function Corpo(){
@@ -27,6 +35,13 @@ function Corpo(){
             <EndJS/>
 
             <SelectPY/>
+            <FirstQPY/>
+            <SecondQPY/>
+            <ThirdQPY/>
+            <FourthQPY/>
+            <ThursdayQPY/>
+            <EndPY/>
+
             <SelectPHP/>
         </div>
     )
